@@ -13,7 +13,7 @@ Ini adalah sebuah aplikasi list employee yang menggunakan global api https://req
     - List employee terdapat data nama, email dan avatar
 - #### Detail Page
     - Menampilkan data sesuai index yang dipilih user
-    - Bisa mengarahkan ke phone dial jika onTap card phone
+    - Bisa mengarahkan ke phone dial jika onTap card phone *nomor tidak dinamis karena tidak tersedia di api
     - Bisa mengarahkan ke aplikasi email jika onTap card email
     - Terdapat fitur share yang berisi konten nama dan email employee
 - #### Create Page
