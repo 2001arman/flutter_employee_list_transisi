@@ -22,5 +22,8 @@ Ini adalah sebuah aplikasi list employee yang menggunakan global api https://req
     - Menggunakan state management BLOC / Cubit
 
 ### Screenshot APP
+<p align="center">
+  <img src="https://github.com/2001arman/flutter_employee_list_transisi/blob/master/assets/login_page.jpg" width="350" title="hover text">
+</p>
 ![alt text](https://github.com/2001arman/flutter_employee_list_transisi/blob/master/assets/login_page.jpg)
 
