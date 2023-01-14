@@ -1,16 +1,23 @@
-# flutter_employee_list_transisi
+# Transisi Test Interview APP
 
-A new Flutter project.
+Ini adalah sebuah aplikasi list employee yang menggunakan global api https://reqres.in/
 
-## Getting Started
+## Page dan fitur:
+- #### Login Page
+    - Validator input email dan password (tidak boleh kosong)
+    - animasi loading
+- #### Home Page
+    - Menggunakan state management BLOC / Cubit
+    - Terdapat view skeleton jika sedang loading load data dari api
+    - List employee terdapat data nama, email dan avatar
+- #### Detail Page
+    - Menampilkan data sesuai index yang dipilih user
+    - Bisa mengarahkan ke phone dial jika onTap card phone
+    - Bisa mengarahkan ke aplikasi email jika onTap card email
+    - Terdapat fitur share yang berisi konten nama dan email employee
+- #### Create Page
+    - Terdapat fitur valodator input
+    - Terdapat fitur memilih foto jika user onTap icon gambar yang diatas (foto dari galery).
+    - Menggunakan state management BLOC / Cubit
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Screenshot APP
