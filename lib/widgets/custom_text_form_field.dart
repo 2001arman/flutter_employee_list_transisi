@@ -8,11 +8,15 @@ class CustomTextFormField extends StatefulWidget {
     this.isPassword = false,
     required this.title,
     this.minLines = 1,
+    required this.controller,
+    this.keyboarType = TextInputType.text,
   }) : super(key: key);
 
   final String hintText, title;
   final bool isPassword;
   final int minLines;
+  final TextEditingController controller;
+  final TextInputType keyboarType;
 
   @override
   State<CustomTextFormField> createState() => _CustomTextFormFieldState();
@@ -36,7 +40,15 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
         const SizedBox(height: 10),
         widget.isPassword
             ? TextFormField(
+                controller: widget.controller,
                 obscureText: obscure,
+                validator: (value) {
+                  if (value == null || value.isEmpty) {
+                    return 'Please fill email section';
+                  }
+                  return null;
+                },
+                keyboardType: widget.keyboarType,
                 decoration: InputDecoration(
                   hintText: widget.hintText,
                   suffixIcon: GestureDetector(
@@ -64,7 +76,15 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
                 ),
               )
             : TextFormField(
+                controller: widget.controller,
                 obscureText: widget.isPassword,
+                validator: (value) {
+                  if (value == null || value.isEmpty) {
+                    return 'Please fill password section';
+                  }
+                  return null;
+                },
+                keyboardType: widget.keyboarType,
                 decoration: InputDecoration(
                   hintText: widget.hintText,
                   hintStyle: greyTextStyle.copyWith(fontSize: 13),

@@ -13,6 +13,7 @@ Color kGreenBGColor = const Color(0xFFEFFFEC);
 Color kDividerColor = const Color(0xFFEDEDED);
 Color kBorderColor = const Color(0xFFD1D1D6);
 Color kOrangBGColor = const Color(0xFFFFEFDF);
+Color kBlueColor = const Color(0xFF3F51B5);
 
 TextStyle whiteTextStyle = GoogleFonts.inter(
   color: kWhiteColor,
