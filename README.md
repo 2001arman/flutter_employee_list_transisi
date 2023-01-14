@@ -24,6 +24,11 @@ Ini adalah sebuah aplikasi list employee yang menggunakan global api https://req
 ### Screenshot APP
 <p align="center">
   <img src="https://github.com/2001arman/flutter_employee_list_transisi/blob/master/assets/login_page.jpg" width="250" title="Login Page">
-  <img src="https://github.com/2001arman/flutter_employee_list_transisi/blob/master/assets/home_page.jpg" width="250" title="Login Page">
+  <img src="https://github.com/2001arman/flutter_employee_list_transisi/blob/master/assets/home_page.jpg" width="250" title="Home Page">
+</p>
+<p align="center">
+  <img src="https://github.com/2001arman/flutter_employee_list_transisi/blob/master/assets/detail_page.jpg" width="200" title="Login Page">
+  <img src="https://github.com/2001arman/flutter_employee_list_transisi/blob/master/assets/create_page.jpg" width="200" title="Login Page">
+  <img src="https://github.com/2001arman/flutter_employee_list_transisi/blob/master/assets/skeleton_view.jpg" width="200" title="Login Page">
 </p>
 
